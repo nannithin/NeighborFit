@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Greenwood",
+    "crimeRate": 0.2,
+    "rentAverage": 18000,
+    "walkScore": 82,
+    "schoolRating": 8,
+    "nightlife": 6,
+    "parks": 7,
+    "shopping": 7,
+    "restaurants": 8,
+    "publicTransit": 7
+  },
+  {
+    "name": "Sunset Hills",
+    "crimeRate": 0.1,
+    "rentAverage": 24000,
+    "walkScore": 65,
+    "schoolRating": 9,
+    "nightlife": 4,
+    "parks": 8,
+    "shopping": 6,
+    "restaurants": 6,
+    "publicTransit": 6
+  },
+  {
+    "name": "Downtown Central",
+    "crimeRate": 0.5,
+    "rentAverage": 35000,
+    "walkScore": 95,
+    "schoolRating": 6,
+    "nightlife": 9,
+    "parks": 5,
+    "shopping": 9,
+    "restaurants": 9,
+    "publicTransit": 9
+  },
+  {
+    "name": "Lakeside Village",
+    "crimeRate": 0.3,
+    "rentAverage": 20000,
+    "walkScore": 70,
+    "schoolRating": 7,
+    "nightlife": 5,
+    "parks": 9,
+    "shopping": 5,
+    "restaurants": 6,
+    "publicTransit": 6
+  },
+  {
+    "name": "Tech Ridge",
+    "crimeRate": 0.15,
+    "rentAverage": 30000,
+    "walkScore": 88,
+    "schoolRating": 7,
+    "nightlife": 8,
+    "parks": 6,
+    "shopping": 8,
+    "restaurants": 8,
+    "publicTransit": 8
+  }
+]
