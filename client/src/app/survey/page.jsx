@@ -121,9 +121,9 @@ export default function Survey() {
                                             className="w-full"
                                         />
                                         <div className="flex justify-between text-sm text-gray-600 mt-1">
-                                            <span>10,000</span>
-                                            <span className="font-medium">${surveyData.budget[0].toLocaleString()}</span>
-                                            <span>40,000</span>
+                                            <span>₹10,000</span>
+                                            <span className="font-medium">₹{surveyData.budget[0].toLocaleString()}</span>
+                                            <span>₹40,000</span>
                                         </div>
                                     </div>
                                 </div>
