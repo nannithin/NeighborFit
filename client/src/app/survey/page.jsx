@@ -77,7 +77,7 @@ export default function Survey() {
         <div className="min-h-screen bg-gray-50">
             <header className="border-b bg-white">
                 <div className="container mx-auto px-4 py-4">
-                    <Link href="/" className="flex items-center space-x-2 text-blue-600 hover:text-blue-700">
+                    <Link href="/" className="flex items-center space-x-2 text-[#00b857]">
                         <ArrowLeft className="h-4 w-4" />
                         <span>Back to Home</span>
                     </Link>
