@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🏡 NeighborFit
 
-## Getting Started
+Demo link https://neighbor-fit-client.vercel.app/
 
-First, run the development server:
+**NeighborFit** is a full-stack web application that helps users find neighborhoods that best match their lifestyle and priorities using data-driven recommendations.
 
-```bash
+![NeighborFit Banner](public/assets/cover.png) <!-- Optional image -->
+
+---
+
+## 📄 Project Overview
+
+NeighborFit solves the challenge of matching people with ideal neighborhoods using a user-centered survey and algorithmic scoring system. It replaces subjective research with systematic, personalized recommendations.
+
+### ✅ Key Features:
+- Collects lifestyle preferences via an interactive survey
+- Scores and ranks neighborhoods using a custom algorithm
+- Displays live match results with a clean UI
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer     | Tools / Libraries |
+|-----------|------------------|
+| **Frontend** | Next.js (App Router), Tailwind CSS, shadcn/ui, Lucide Icons |
+| **Backend**  | Node.js, Express, Mongoose (MongoDB), REST API |
+| **Database** | MongoDB Atlas (Cloud) |
+| **Deployment** | Vercel (Frontend), Render (Backend) |
+
+---
+
+## 📊 Matching Algorithm
+
+NeighborFit uses a weighted scoring algorithm to rank neighborhoods according to user preferences.
+
+```txt
+Final Score = (Budget Score × 0.25) + (Priority Factors × 0.60) + (Lifestyle Match × 0.15)
+
+# Clone the repository
+git clone https://github.com/your-username/neighborfit.git
+cd neighborfit
+
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
