@@ -4,7 +4,6 @@ Demo link https://neighbor-fit-client.vercel.app/
 
 **NeighborFit** is a full-stack web application that helps users find neighborhoods that best match their lifestyle and priorities using data-driven recommendations.
 
-![NeighborFit Banner](public/assets/cover.png) <!-- Optional image -->
 
 ---
 
