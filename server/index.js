@@ -1,11 +1,14 @@
 const express = require("express")
 const mongoose = require("mongoose")
 const cors = require("cors")
-require("dotenv").config(); 
+require("dotenv").config();
 
 const PORT = process.env.PORT;
 const app = express()
-app.use(cors())
+app.use(cors({
+    origin: 'https://neighbor-fit-client.vercel.app/',
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+}));
 app.use(express.json())
 
 mongoose.connect(process.env.MONGO_URI)
