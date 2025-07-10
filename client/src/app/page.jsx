@@ -4,7 +4,7 @@ import { MapPin, Users, BarChart3, Target, Users2, Database, CircleCheckBig } fr
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+    <div className="min-h-screen ">
       <header className="border-b bg-white/80 backdrop-blur-sm">
         <div className="container mx-auto px-4 py-5">
           <div className="flex items-center justify-between">
