@@ -6,7 +6,7 @@ require("dotenv").config();
 const PORT = process.env.PORT;
 const app = express()
 app.use(cors({
-    origin: 'https://neighbor-fit-client.vercel.app/',
+    origin: 'https://neighbor-fit-client.vercel.app',
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
 }));
 app.use(express.json())
