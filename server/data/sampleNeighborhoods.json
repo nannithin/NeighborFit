@@ -2,7 +2,7 @@
   {
     "name": "Greenwood",
     "crimeRate": 0.2,
-    "rentAverage": 18000,
+    "rentAverage": 12000,
     "walkScore": 82,
     "schoolRating": 8,
     "nightlife": 6,
@@ -14,7 +14,7 @@
   {
     "name": "Sunset Hills",
     "crimeRate": 0.1,
-    "rentAverage": 24000,
+    "rentAverage": 16000,
     "walkScore": 65,
     "schoolRating": 9,
     "nightlife": 4,
